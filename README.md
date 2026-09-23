@@ -6,7 +6,11 @@
 
 منصة لإدارة وتشغيل وكلاء ذكيين (AI Agents) مع لوحة تحكم، مفاتيح API، فوترة Stripe، وتتبع استخدام.
 
-> **ملاحظة:** اسم المستودع على GitHub ما زال `Repository-name-my-ai-platform` — يُفضَّل إعادة تسميته إلى `agentic-ai` من إعدادات المستودع.
+> **⚠️ إجراء مطلوب فوراً:**  
+> اسم المستودع على GitHub ما زال `Repository-name-my-ai-platform`.  
+> يُرجى إعادة تسميته إلى **`agentic-ai`** من:  
+> [Settings → Repository name](https://github.com/Johanne012/Repository-name-my-ai-platform/settings)  
+> تتبع: [#2](https://github.com/Johanne012/Repository-name-my-ai-platform/issues/2)
 
 ## الإنتاج (Live)
 
