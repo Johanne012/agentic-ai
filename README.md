@@ -1,16 +1,12 @@
 # AgenticAI — منصة الوكلاء الذكيين
 
-[![CI](https://github.com/Johanne012/Repository-name-my-ai-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/Johanne012/Repository-name-my-ai-platform/actions/workflows/ci.yml)
+[![CI](https://github.com/Johanne012/agentic-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Johanne012/agentic-ai/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./package.json)
 [![Production](https://img.shields.io/badge/production-live-brightgreen)](https://repository-name-my-ai-platform.vercel.app)
 
 منصة لإدارة وتشغيل وكلاء ذكيين (AI Agents) مع لوحة تحكم، مفاتيح API، فوترة Stripe، وتتبع استخدام.
 
-> **⚠️ إجراء مطلوب فوراً:**  
-> اسم المستودع على GitHub ما زال `Repository-name-my-ai-platform`.  
-> يُرجى إعادة تسميته إلى **`agentic-ai`** من:  
-> [Settings → Repository name](https://github.com/Johanne012/Repository-name-my-ai-platform/settings)  
-> تتبع: [#2](https://github.com/Johanne012/Repository-name-my-ai-platform/issues/2)
+> ✅ تم إعادة تسمية المستودع إلى **`agentic-ai`** بنجاح.
 
 ## الإنتاج (Live)
 
@@ -21,6 +17,8 @@
 | **tRPC** | `/api/trpc/*` |
 | **OAuth** | `/api/oauth/callback` |
 | **Host** | Vercel (static frontend + serverless Express) |
+
+> ملاحظة: رابط Vercel ما زال بالاسم القديم مؤقتاً. يمكن تحديثه لاحقاً من إعدادات المشروع على Vercel.
 
 ### متغيرات البيئة المطلوبة على Vercel
 
@@ -61,8 +59,8 @@ Project → Settings → Environment Variables (Production):
 ## التثبيت المحلي
 
 ```bash
-git clone https://github.com/Johanne012/Repository-name-my-ai-platform.git
-cd Repository-name-my-ai-platform
+git clone https://github.com/Johanne012/agentic-ai.git
+cd agentic-ai
 cp .env.example .env
 # عدّل DATABASE_URL و JWT_SECRET
 
